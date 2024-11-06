@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Food Ordering</title>
+</head>
+<body>
+  <h1>Food Ordering</h1>
+  <div id="menu"></div>
+
+  <h3>Thêm món ăn</h3>
+  <input type="text" id="newFoodName" placeholder="Tên món ăn">
+  <input type="number" id="newFoodPrice" placeholder="Giá">
+  <button onclick="addFood()">Thêm</button>
+
+  <h3>Đơn hàng</h3>
+  <div id="order"></div>
+  <p>Tổng tiền: <span id="totalPrice">0</span> VND</p>
+
+  <h3>Thanh toán</h3>
+  <input type="number" id="customerMoney" placeholder="Số tiền khách đưa">
+  <button onclick="calculateChange()">Tính tiền thừa</button>
+  <p>Tiền thừa: <span id="change">0</span> VND</p>
+  <button id="newReceiptBtn" onclick="newReceipt()" style="display: none;">Tạo biên lai mới</button>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Burger",
+    "price": 50000
+  },
+  {
+    "id": 2,
+    "name": "Gà Rán",
+    "price": 30000
+  },
+  {
+    "id": 3,
+    "name": "Kem Cá",
+    "price": 15000
+  },
+  {
+    "id": 4,
+    "name": "Kem Ngũ Vị",
+    "price": 25000
+  },
+  {
+    "id": 5,
+    "name": "Khoai Tây Chiên",
+    "price": 15000
+  },
+  {
+    "id": 6,
+    "name": "Cơm Gà",
+    "price": 45000
+  },
+  {
+    "id": 7,
+    "name": "Cơm Thịt Bò",
+    "price": 50000
+  },
+  {
+    "id": 8,
+    "name": "Gà Sốt Cay",
+    "price": 35000
+  }
+]
